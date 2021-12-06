@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Headerbar from './Components/headerbar';
+import Headerbar from './Components/Headerbar';
 import reportWebVitals from './reportWebVitals';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
