@@ -1,30 +1,17 @@
 import React from "react";
-import '../css/Com.css';
-
-import {Nav} from 'react-bootstrap';
+import './nav.css'
+import { useState } from "react";
 
 const Headerbar = () =>{
+   const [activeNav,setActiveNav] = useState('#');
     return(
-  <div>
-    <Nav className='justify-content-end'>
-      <Nav.Item>
-        <Nav.Link href="../App.js">Home</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link >Project</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link >Skills</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link>About </Nav.Link>
-      </Nav.Item>
-    </Nav>
-    {/* <a className="tag">Home</a>
-    <a>Projects</a>
-    <a>skills</a>
-    <a>About</a> */}
-  </div>
+      <nav>
+         <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : '' }>Home</a>
+         <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav==='#experience' ? 'avtive' : ''}>Experience</a>
+         <a href="#project" onClick={() => setActiveNav('#project')} className={activeNav==='#project' ? 'avtive' : ''}>Project</a>
+         <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav==='#contact' ? 'avtive' : ''}>Contact</a>
+
+      </nav>
 
     )
 }
