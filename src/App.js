@@ -1,6 +1,6 @@
 
 // import './App.css';
-import Headerbar from './Components/Headerbar';
+import Headerbar from './Components/headerbar';
 import Home from './Components/home/Home';
 import Experience from './Components/experience/Experience'
 import Project from './Components/project/Project'

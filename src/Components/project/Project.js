@@ -20,7 +20,7 @@ const data = [
   {
     id: 3,
     image:IMG3,
-    title: 'Web Application for SMD Distributed Company;',
+    title: 'Web Application for SMD Distributed Company',
     github:'https://github.com/smdnipun/SMD-Distributors-Automated-System'
   }
 ]

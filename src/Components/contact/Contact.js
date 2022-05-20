@@ -41,13 +41,13 @@ const Contact = () => {
             <AiFillLinkedin className='contact_option-icon'/>
             <h4>Linkdin</h4>
             {/* <h5>hiroshachandramal01@gmail.com</h5> */}
-            <a href='https://www.linkedin.com/feed/'>Hirosha Samarasekara</a>
+            <a href='https://www.linkedin.com/in/hirosha-samarasekara-b5a19b213/'>Hirosha Samarasekara</a>
           </article>
           <article className='contact_option'>
             <BsFacebook className='contact_option-icon'/>
             <h4>Facebook</h4>
             {/* <h5>hiroshachandramal01@gmail.com</h5> */}
-            <a href='hhttps://www.facebook.com/hirosha samarasekara/'>Hirosha Samarasekara</a>
+            <a href='https://www.facebook.com/hirosha.samarasekara.92/'>Hirosha Samarasekara</a>
           </article>
           <article className='contact_option'>
             <AiOutlineInstagram className='contact_option-icon'/>
