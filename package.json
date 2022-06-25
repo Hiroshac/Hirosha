@@ -1,7 +1,7 @@
 {
   "name": "hirosha",
   "version": "0.1.0",
-  "homepage": "hiroshac.github.io",
+  "homepage": "https://hiroshac.github.io/hirosha",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
