@@ -10,7 +10,6 @@ const Headerbar = () =>{
          <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav==='#experience' ? 'avtive' : ''}>Experience</a>
          <a href="#project" onClick={() => setActiveNav('#project')} className={activeNav==='#project' ? 'avtive' : ''}>Project</a>
          <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav==='#contact' ? 'avtive' : ''}>Contact</a>
-
       </nav>
 
     )
