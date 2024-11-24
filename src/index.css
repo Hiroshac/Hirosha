@@ -40,7 +40,7 @@ body {
   line-height: 1.7;
 }
 
-/* ==================style======================*/
+/* ==================General style======================*/
 
 .container {
   width: var(--container-width-lg);
@@ -132,7 +132,7 @@ img {
   }
 
   section > h2 {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
